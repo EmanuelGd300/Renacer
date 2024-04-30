@@ -1,0 +1,48 @@
+.custom-container-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px; /* Espacio entre los contenedores */
+}
+
+.custom-container {
+    width: 290px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.custom-container:hover {
+    transform: scale(1.05);
+}
+
+.custom-image img {
+    width: 100%;
+    height: auto;
+}
+
+.custom-title {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.custom-content {
+    display: none;
+    padding: 10px;
+}
+
+.custom-container.expanded {
+    height: 500px; /* ajusta el tamaño según sea necesario */
+}
+
+.custom-content.show {
+    display: block;
+    animation: custom-fadein 1s;
+}
+
+@keyframes custom-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
