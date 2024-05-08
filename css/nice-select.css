@@ -8,7 +8,8 @@
   cursor: pointer;
   display: block;
   float: left;
-  font-family: inherit;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal; 
   font-size: 14px;
   font-weight: normal;
   height: 42px;

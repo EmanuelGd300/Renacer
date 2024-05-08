@@ -34,15 +34,17 @@
 
 html, body {
 	height: 100%;
-	font-family: "Cabin", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal;
+	/*background-color: #e5d1b7;*/
 }
+
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Lora", serif;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal;
 }
 h1 {
 	font-size: 70px;
@@ -64,7 +66,8 @@ h6 {
 }
 p {
 	font-size: 16px;
-	font-family: "Cabin", sans-serif;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal;
 	color: #6b6b6b;
 	font-weight: 400;
 	line-height: 26px;
@@ -761,7 +764,8 @@ ul, ol {
 	transition: all 0.2s;
 }
 .hp-room-items .hp-room-item .hr-text h2 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal;
 	font-size: 16px;
 	font-weight: 400;
 	color: #ffffff;
@@ -907,7 +911,8 @@ ul, ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
-	font-family: "Cabin", sans-serif;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-contact ul li {
@@ -922,7 +927,8 @@ ul, ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
-	font-family: "Cabin", sans-serif;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter p {
@@ -1009,6 +1015,7 @@ ul, ol {
 	font-size: 18px;
 	font-family: "FontAwesome";
 	color: #aaaab3;
+	font-style: normal;
 }
 .breadcrumb-text .bt-option span {
 	display: inline-block;
@@ -1180,7 +1187,8 @@ ul, ol {
 	margin-bottom: 14px;
 }
 .room-item .ri-text h3 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal;
 	font-size: 14px;
 	font-weight: 400;
 	color: #19191a;
@@ -1271,7 +1279,8 @@ ul, ol {
 	margin-bottom: 25px;
 }
 .room-details-item .rd-text h2 span {
-	font-family: "Cabin", sans-serif;
+	font-family: "Libre Baskerville", serif;
+	font-style: normal;
 	font-size: 16px;
 	font-weight: 400;
 	color: #19191a;
