@@ -115,7 +115,6 @@ ul, ol {
 	background-position: top center;
 }
 .spad {
-	padding-top: 100px;
 	padding-bottom: 100px;
 }
 .spad-2 {
@@ -1049,7 +1048,7 @@ ul, ol {
 
 .aboutus-page-section {
 	padding-top: 0;
-	padding-bottom: 70px;
+	padding-bottom: 0px;
 }
 .about-page-text {
 	margin-bottom: 65px;
