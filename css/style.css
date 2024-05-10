@@ -511,7 +511,7 @@ ul, ol {
 	padding-top: 145px;
 }
 .hero-text h1 {
-	font-size: 80px;
+	font-size: 70px;
 	line-height: 90px;
 	color: #ffffff;
 	margin-bottom: 16px;
@@ -865,7 +865,7 @@ ul, ol {
 -----------------------*/
 
 .footer-section {
-	background: #222736;
+	background: #ffffff;
 }
 .footer-section .footer-text {
 	padding: 80px 0 30px;
@@ -902,6 +902,27 @@ ul, ol {
 	background: #dfa974;
 	border-color: #dfa974;
 }
+
+.footer-section .footer-text .ft-about .logos-redes a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-right: 7px;
+}
+
+.footer-section .footer-text .ft-about .logos-redes a:hover {
+	background: #ffffff;
+	border-color: #222736;
+}
+
 .footer-section .footer-text .ft-contact {
 	margin-bottom: 30px;
 }
