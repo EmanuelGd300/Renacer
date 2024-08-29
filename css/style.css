@@ -1128,7 +1128,7 @@ ul, ol {
 }
 .gallery-item {
 	position: relative;
-	height: 279px;
+	height: 370px;
 	margin-bottom: 20px;
 	border-radius: 5px;
 	position: relative;
@@ -1156,7 +1156,7 @@ ul, ol {
 	opacity: 0;
 }
 .gallery-item.large-item {
-	height: 576px;
+	height: 760px;
 }
 .gallery-item .gi-text {
 	display: -webkit-box;
